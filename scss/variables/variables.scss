@@ -1,0 +1,37 @@
+
+//Variables
+
+
+//Colours
+
+$light-green:#b7b7a4;
+$dark-green:#656d4a;
+$light-blush:#ddbea9;
+$dark-blush:#c38e70;
+$grey:gray;
+$white:white;
+$white-smoke:whitesmoke;
+$black:black;
+$neon-yellow:#dbe91b ;
+
+
+//Font
+
+$main-font:'Cormorant Garamond', serif;
+$xs-font:14px;
+$s-font:15px;
+$ss-font:16px;
+$m-font: 18px;
+$xl-font: 24px;
+
+
+//Mixin
+
+@mixin margin($right, $top, $left) 
+{
+margin-right:$right;
+margin-top: $top;
+margin-left: $left;
+}
+
+

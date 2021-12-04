@@ -1,0 +1,41 @@
+#textshow1 {
+
+    padding-top: 10%;
+    text-align:justify;
+    font-family: $main-font;
+    color: $dark-green;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+#titleshow1 {
+
+    margin-left: 41%;
+    font-family: $main-font;
+    color: $light-blush;
+    
+}
+
+#containershow1 {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#containershow2 {
+
+    
+    margin-bottom: 5%;
+}
+
+
+/******* Media Query Collections ******/
+
+
+@media (max-width:768px){
+    #pictureshow{
+        height: 242px;
+    }
+} 

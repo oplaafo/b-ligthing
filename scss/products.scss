@@ -1,0 +1,169 @@
+#bodyp1 {
+    background-image: url(../public/img/desc-pro-1.jpg);
+    
+    }
+
+#bodyp2 {
+    background-image: url(../public/img/desc-pro-2.jpg);
+    
+    }
+
+#bodyp3 {
+    background-image: url(../public/img/desc-pro-3.jpg);
+        
+    }
+
+#bodyp4 {
+    background-image: url(../public/img/desc-pro-4.jpg);
+    
+    }
+
+#bodyp5 {
+    background-image: url(../public/img/desc-pro-5.jpg);
+        
+    }
+
+#bodyp6 {
+    background-image: url(../public/img/desc-pro-6.jpg);
+        
+    }
+
+#bodyp6 {
+    background-image: url(../public/img/desc-pro-6.jpg);
+        
+    }
+
+#bodyp7 {
+    background-image: url(../public/img/desc-pro-7.jpg);
+        
+    }
+
+#bodyp8 {
+    background-image: url(../public/img/desc-pro-8.jpg);
+        
+    }
+
+#bodyp9 {
+    background-image: url(../public/img/desc-pro-9.jpg);
+        
+    }
+
+#bodyp10 {
+    background-image: url(../public/img/desc-pro-10.jpg);
+        
+    }
+
+#bodyp11 {
+    background-image: url(../public/img/desc-pro-11.jpg);
+        
+    }
+
+#bodyp12 {
+    background-image: url(../public/img/desc-pro-12.jpg);
+        
+    }
+
+#bodyp13 {
+    background-image: url(../public/img/desc-pro-13.jpg);
+            
+    }
+
+#bodyp14 {
+    background-image: url(../public/img/desc-pro-14.jpg);
+            
+    }
+
+#bodyp15 {
+    background-image: url(../public/img/desc-pro-15.jpg);
+            
+    }
+
+
+#accordionFlushExample {
+    @include margin (60%, 10%, 30px);
+    background-color: $light-blush;
+}
+
+#titlepro {
+    @include margin (70%, 200px, 16%);
+    font-family: $main-font;
+    color: $dark-green;
+
+}
+
+
+.accordion-button  {
+background-color: $light-blush !important;
+color: $white-smoke!important;
+font-family: $main-font;
+font-size: $m-font;
+
+
+
+}
+.accordion-item {
+    background-color: $light-blush;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+
+}
+
+.accordion-body {
+    color: $dark-green;
+    font-family: $main-font;
+}
+
+#relatedp {
+background-color: $light-green;
+}
+
+#related-title {
+    color: $dark-green;
+    font-family: $main-font;
+    margin-left: 48%;
+
+}
+
+
+#fathercont {
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 19%;
+}
+
+
+//Media Query
+
+
+@media (max-width:768px){
+    #fathercont {
+        
+        width: 250px;
+        margin-bottom: 20px;
+}
+}
+
+@media (max-width:768px){
+    #related-title {
+        font-size: $s-font !important;
+}
+}
+
+@media (max-width:768px){
+    #titlepro {         
+    margin-left: 38%;
+    margin-top: 0%;
+                
+}
+}
+
+@media (max-width:768px){
+    #accordionFlushExample {
+    margin: none;
+    width: 330px;
+                                    
+}
+}

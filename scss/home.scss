@@ -1,0 +1,58 @@
+.cont-in1 {
+    padding-left: 65px;
+    padding-right: 0%;
+    
+    }
+
+
+.cont-in2 {
+    padding-left: 10px;
+    padding-right: 70px;     
+}
+
+#textmain {
+    color: $dark-green;
+    font-family: $main-font;
+    text-align: center;
+    }
+    
+    
+    
+.imgindex {
+        padding-bottom: 10%;
+    }
+    
+#cont-in {
+    margin-bottom: 5%;
+    
+    }
+
+//Media Query
+    
+@media (max-width:768px){
+        #cont-in {
+            padding-left: 50px;
+        }
+        }
+    
+@media (max-width:768px){
+        #img-ind-3 {
+            display: none;
+        }
+        }
+    
+@media (max-width:810px){
+        #img-ind-3 {
+            display: none;
+        }
+        }
+                
+        
+    
+@media (max-width:768px){
+        #imgcarou {
+        height:302px; 
+        width:403px;
+        }
+        }
+    
