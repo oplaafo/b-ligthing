@@ -18,6 +18,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
     
+        <!-- AOS library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
         <!-- CSS Boostrap -->
         <link rel="stylesheet" href="../css/bootstrap.css">
     
@@ -34,6 +37,43 @@
 
 
 <body>
+
+    <!-- navegador / Phone / Ipad -->
+<nav class="navbar navbar-light bg-white fixed-top navbarphone">
+    <div class="container-fluid">
+        <a href="../index.html">
+            <img width="250px" src="../public/img/logoblack.png" alt="logo" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <img width="250px" src="../public/img/logoblack.png" alt="logo" >
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #b7b7a4;" href="collections.html">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #b7b7a4;"  href="showrooms.html">Showrooms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #b7b7a4;"  href="aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #b7b7a4;"  href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #b7b7a4;"  href="../index.html">Home</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</nav>
     
     <!-- navegador -->
     <header>
@@ -51,7 +91,7 @@
             </div>  
 
 
-            <div class="d-flex " >
+            <div class="d-flex logonavegador" >
                 <a href="../index.html" >
                     <img width="400px" src="../public/img/logoblack.png" alt="logo" class="logomain">
                 </a>
@@ -75,24 +115,24 @@
 
     <main class="p-5">
 
-        <div class="container p-3">
+        <div data-aos="flip-left" class="container p-3 ">
             <div class="row m-y-5">
 
             <div class="col-4 box">
                 <a href="producto1.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-01.jpeg" alt="lamp 1">
+                    <img class=" img-1 img-fluid rounded float-start" src="../public/img/producto-01.jpeg" alt="lamp 1">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto2.html">
-                    <img class=" img-fluid rounded float-start" src="../public/img/producto-02.jpg" alt="lamp 2">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-02.jpg" alt="lamp 2">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto3.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-03.jpg" alt="lamp 3">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-03.jpg" alt="lamp 3">
                 </a>
             </div>
 
@@ -100,24 +140,24 @@
         </div>
 
 
-        <div class="container p-3">
+        <div data-aos="flip-left" class="container p-3">
             <div class="row">
                 
             <div class="col-4">
                 <a href="producto4.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-04.jpg" alt="lamp 4">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-04.jpg" alt="lamp 4">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto5.html">
-                    <img class=" img-fluid rounded float-start" src="../public/img/producto-05.jpg" alt="lamp 5">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-05.jpg" alt="lamp 5">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto6.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-06.jpg" alt="lamp 6">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-06.jpg" alt="lamp 6">
                 </a>
             </div>
 
@@ -125,72 +165,72 @@
         </div>
 
 
-        <div class="container p-3">
+        <div data-aos="flip-left" class="container p-3">
             <div class="row">
                 
             <div class="col-4">
                 <a href="producto7.html">
-                    <img class="img-fluid rounded float-start" src="../public/img//producto-07.jpg" alt="lamp 7">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img//producto-07.jpg" alt="lamp 7">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto8.html">
-                    <img class=" img-fluid rounded float-start" src="../public/img/producto-08.jpg" alt="lamp 8">
+                    <img class=" img-1 img-fluid rounded float-start" src="../public/img/producto-08.jpg" alt="lamp 8">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto9.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-09.jpg" alt="lamp 9">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-09.jpg" alt="lamp 9">
                 </a>
             </div>
 
             </div>
         </div>
 
-        <div class="container p-3">
+        <div data-aos="flip-left" class="container p-3">
             <div class="row">
                 
             <div class="col-4">
                 <a href="producto10.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-10.jpg" alt="lamp 10">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-10.jpg" alt="lamp 10">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto11.html">
-                    <img class=" img-fluid rounded float-start" src="../public/img/producto-11.jpg" alt="lamp 11">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-11.jpg" alt="lamp 11">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto12.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-12.jpg" alt="lamp 12">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-12.jpg" alt="lamp 12">
                 </a>
             </div>
 
             </div>
         </div>
 
-        <div class="container p-3">
+        <div data-aos="flip-left" class="container p-3">
             <div class="row">
                 
             <div class="col-4">
                 <a href="producto13.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-13.jpg" alt="lamp 13">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-13.jpg" alt="lamp 13">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto14.html">
-                    <img class=" img-fluid rounded float-start" src="../public/img/producto-14.jpg" alt="lamp 14">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-14.jpg" alt="lamp 14">
                 </a>
             </div>
 
             <div class="col-4">
                 <a href="producto15.html">
-                    <img class="img-fluid rounded float-start" src="../public/img/producto-15.jpg" alt="lamp 15">
+                    <img class="img-1  img-fluid rounded float-start" src="../public/img/producto-15.jpg" alt="lamp 15">
                 </a>
             </div>
 
@@ -205,11 +245,11 @@
 
         <div class="footer-address" >
             <h4>Contact</h4>
-            Santa Brígida  
+            Las Palmas de GC 
             <br>
-            21, Los Romanos St.
+            2, Triana st.
             <br>
-            35018, Las Palmas, Spain
+            35002, Las Palmas, Spain
             <br>
             +34-928-334-221
             <br>
@@ -236,7 +276,14 @@
     </div>
     </footer>
     
-    <script src="../css/bootstrap.js"></script> 
+     <!--Bootstrap -->
+     <script src="../css/bootstrap.js"></script>
+
+     <!--AOS-->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script>
 </body>
 
 

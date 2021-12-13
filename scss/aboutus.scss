@@ -1,8 +1,64 @@
-.titlecarou {
+
+.containerabout {
+width: 48%;
+height: 400px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+box-shadow: 0, 10px, 20px rgb(40, 40, 40);
+border: 2px solid yellow;
+}
+
+.imgabout {
+
+    height:100%;
+    width:100% ;
+    border: 2px solid blue;
+}
+
+.overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid yellow;
+}
+
+.contenido {
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+    color: white;
+    font-family: $main-font;
+    text-align:center ;
+    border: 2px solid violet;
+
+}
+
+.containerabout:hover{
+    .overlay {
+        opacity: 0.8;
+        border: 2px solid red;
+
+
+}
+}
+
+
+
+/* .titlecarou {
     font-family: $main-font;
     color: $white;
 
-}
+} */
 
 #container-emb {
 background-color: $light-blush;

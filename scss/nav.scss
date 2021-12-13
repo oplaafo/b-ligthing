@@ -42,86 +42,49 @@ a {
 
 @media (max-width:768px){
     .logomain{
-        width: 100px;
-        margin-left: 60px;
+    display: none;
+    }
+} 
+@media (max-width:768px){
+    #navegadori{
+    display: none;
+    }
+} 
+@media (max-width:768px){
+    #navegadord{
+    display: none;
+    }
+} 
+@media (max-width:1042px){
+    .logomain{
+    display: none;
+    }
+} 
+@media (max-width:1042px){
+    #navegadori{
+    display: none;
+    }
+} 
+@media (max-width:1042px){
+    #navegadord{
+    display: none;
+    }
+} 
+@media (min-width:1042px){
+    .navbarphone{
+    display: none;
+    }
+} 
+@media (min-width:1042px){
+    #navbarphone{
+    display: none;
+    }
+} 
+@media (min-width:1042px){
+    #navbarphone{
+    display: none;
     }
 } 
 
 
-@media (max-width:768px){
-    #navegadori{
-        font-size: $m-font;
-        padding:0%;
-        margin-left: 63px;
-        
-    }
-}
 
-@media (max-width:768px){
-    #navegadord{
-        font-size: $m-font;
-        padding:0%;
-        margin-left: 40px;
-    }
-}
-
-@media (max-width:810px){
-    .logomain{
-        width: 230px;
-    }
-}
-
-
-@media (max-width:810px){
-    #navegadori{
-        font-size: $m-font;
-        padding:0%;
-        margin-left: 63px;
-        
-    }
-}
-
-@media (max-width:810px){
-    #navegadord{
-        font-size: $m-font;
-        padding:0%;
-        margin-left: 40px;
-    }
-}
-
-@media (max-width:854px){
-    .logomain{
-        width: 230px;
-        
-    }
-}
-
-
-@media (max-width:854px){
-    #navegadori{
-        font-size: $m-font;
-        padding:0%;
-        
-        
-    }
-}
-
-@media (max-width:854px){
-    #navegadord{
-        font-size: $m-font;
-        padding:0%;
-        
-    }
-}
-
-
-@keyframes slidein {
-    from {
-        margin-left: 40%;
-        width: 100%
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }}
