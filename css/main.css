@@ -58,51 +58,25 @@ a {
   #navbarphone {
     display: none; } }
 
-.containerabout {
-  width: 48%;
-  height: 400px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0, 10px, 20px #282828;
-  border: 2px solid yellow; }
-
-.imgabout {
-  height: 100%;
-  width: 100%;
-  border: 2px solid blue; }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background-color: black;
-  cursor: pointer;
-  border: 2px solid yellow; }
-
-.contenido {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate -50%, -50%;
-  color: white;
+.titlecarou {
   font-family: "Cormorant Garamond", serif;
-  text-align: center;
-  border: 2px solid violet; }
+  color: white; }
 
-.containerabout:hover .overlay {
-  opacity: 0.8;
-  border: 2px solid red; }
+/* #flex.son {
 
-/* .titlecarou {
-    font-family: $main-font;
-    color: $white;
+    margin-top: 200px;
+    position: relative;
+    border: 3px;
+}
 
-} */
+
+#flex.father {
+
+    position: absolute;
+    border: 3px solid red;
+    height: auto;
+}
+ */
 #container-emb {
   background-color: #ddbea9; }
 
@@ -119,10 +93,10 @@ a {
 #textabout2 {
   font-family: "Cormorant Garamond", serif;
   color: white;
-  margin-top: 65%;
+  margin-top: 60%;
   text-align: justify;
   font-size: 24px;
-  width: 700px; }
+  width: 400px; }
 
 @media (max-width: 768px) {
   #textabout1 {
@@ -133,13 +107,27 @@ a {
 @media (max-width: 768px) {
   #textabout2 {
     font-size: 18px;
-    padding: 0;
-    margin-top: 65%;
-    color: black;
-    margin-bottom: 300px;
-    border: 3px solid red;
-    width: 300px;
-    position: relative; } }
+    color: #656d4a;
+    /*  border: 3px solid red; */
+    width: 520px;
+    margin-bottom: 40px;
+    display: relative; } }
+
+@media (max-width: 642px) {
+  #textabout2 {
+    font-size: 18px;
+    color: #656d4a;
+    /* border: 3px solid red; */
+    width: 290px;
+    margin-top: 150px; } }
+
+@media (max-width: 768px) {
+  #footerabout {
+    margin-top: 200px; } }
+
+@media (max-width: 642px) {
+  #footerabout {
+    margin-top: 340px; } }
 
 @media (max-width: 768px) {
   #container-emb {
@@ -148,7 +136,8 @@ a {
 
 @media (max-width: 768px) {
   #img-emb {
-    height: 400px; } }
+    height: 400px;
+    margin-bottom: 50%; } }
 
 @media (max-width: 768px) {
   #div-img-emb {
@@ -478,8 +467,12 @@ html {
 
 @media (max-width: 768px) {
   #fathercont {
-    width: 250px;
+    width: 300px;
     margin-bottom: 20px; } }
+
+@media (max-width: 768px) {
+  #relatedp {
+    width: 250px; } }
 
 @media (max-width: 768px) {
   #related-title {

@@ -141,10 +141,19 @@ background-color: $light-green;
 @media (max-width:768px){
     #fathercont {
         
-        width: 250px;
+        width: 300px;
         margin-bottom: 20px;
+        
 }
 }
+
+@media (max-width:768px){
+    #relatedp {
+        
+        width:250px;        
+}
+}
+
 
 @media (max-width:768px){
     #related-title {
